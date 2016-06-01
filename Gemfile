@@ -36,6 +36,9 @@ gem 'kaminari'
 # Parse XML data
 gem 'nokogiri'
 
+# Authentication
+gem 'sorcery', '0.9.0'
+
 # Slim
 gem 'slim'
 
