@@ -1,0 +1,9 @@
+.ui.large.vertical.labeld.menu
+  .ui.header.item.center.teal.label
+    
+  = link_to edit_user_path(current_user), class: "item"
+    i.settings.blue.icon
+    | #{t('.settings')}
+  = link_to :logout, method: :delete, class: "item"
+    i.sign.out.red.icon
+    | #{t('users.logout')}
